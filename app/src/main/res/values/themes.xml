@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PhoneApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorAccent">@color/color1</item>
+    </style>
+
+    <style name="Theme.PhoneApp" parent="Base.Theme.PhoneApp" />
+</resources>
