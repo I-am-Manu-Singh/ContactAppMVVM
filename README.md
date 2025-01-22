@@ -47,7 +47,8 @@ Library used: Image Picker by Dhaval2404.
 
 ### Project Structure :
 
-```com.example.phoneapp
+```
+com.example.phoneapp
 ├── MVVM_arch
 │   ├── AddEditActivityViewModel.kt    // ViewModel for Add/Edit screen
 │   └── MainActivityViewModel.kt       // ViewModel for MainActivity
@@ -67,7 +68,7 @@ Library used: Image Picker by Dhaval2404.
 ```
 ### How to Use :
 1. Clone the repository
-```git clone <repository-url>``
+```git clone <repository-url>```
 
 2. Open the project in Android Studio.
 
