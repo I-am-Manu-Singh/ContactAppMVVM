@@ -1,8 +1,8 @@
-###Contact App
+# Contact App
 
 This is a simple contact management app built using the MVVM (Model-View-ViewModel) architecture in Android. The app leverages Room for local database storage and includes an image picker functionality.
 
-##Features :
+### Features :
 
 1. Add new contacts with a name, phone number, and optional profile picture.
 
@@ -10,7 +10,7 @@ This is a simple contact management app built using the MVVM (Model-View-ViewMod
 
 3. View a list of all saved contacts.
 
-##Technologies and Libraries Used :
+### Technologies and Libraries Used :
 
 1. MVVM Architecture
 Used to separate concerns and ensure clean architecture.
@@ -27,7 +27,7 @@ Allows users to select or capture a profile picture for each contact.
 
 Library used: Image Picker by Dhaval2404.
 
-##Dependencies Used :
+### Dependencies Used :
 1. Add the following dependencies to your build.gradle file:
 ```val roomVersion = "2.6.1"```
 
@@ -45,7 +45,7 @@ Library used: Image Picker by Dhaval2404.
 
 ```implementation("com.github.dhaval2404:imagepicker:2.1")```
 
-##Project Structure :
+### Project Structure :
 
 ```com.example.phoneapp
 ├── MVVM_arch
@@ -63,9 +63,9 @@ Library used: Image Picker by Dhaval2404.
 ├── AddEditActivity.kt                   // Activity for adding/editing a contact
 ├── ContactAdapter.kt                     // RecyclerView Adapter for displaying contacts
 ├── MainActivity.kt                       // Main activity displaying the contact list
-└── Utils.kt                              // Utility functions```
-
-##How to Use :
+└── Utils.kt                              // Utility functions
+```
+### How to Use :
 1. Clone the repository
 ```git clone <repository-url>``
 
@@ -77,10 +77,11 @@ Library used: Image Picker by Dhaval2404.
 
 5. Use the app to manage your contacts by adding, editing, and deleting them.
 
-##Screenshots :
-(Include screenshots of your app's UI here, such as the main screen, add/edit contact screen, etc.)
+### Screenshots :
 
-##Future Improvements
+(Will upload these soon.)
+
+### Future Improvements
 
 1. Add search functionality to quickly find contacts.
 
@@ -88,6 +89,6 @@ Library used: Image Picker by Dhaval2404.
 
 3. Add sorting and filtering options.
 
-##License
+### License
 
 This project is open-source and available under the MIT License.
