@@ -2,6 +2,8 @@
 
 This is a simple contact management app built using the MVVM (Model-View-ViewModel) architecture in Android. The app leverages Room for local database storage and includes an image picker functionality.
 
+---
+
 ### Features :
 
 1. Add new contacts with a name, phone number, and optional profile picture.
@@ -10,22 +12,23 @@ This is a simple contact management app built using the MVVM (Model-View-ViewMod
 
 3. View a list of all saved contacts.
 
+---
+
 ### Technologies and Libraries Used :
 
 1. MVVM Architecture
-Used to separate concerns and ensure clean architecture.
-
-ViewModels handle UI-related data in a lifecycle-conscious way.
+- Used to separate concerns and ensure clean architecture.
+- ViewModels handle UI-related data in a lifecycle-conscious way.
 
 2. Room Database
-Used for local database storage to save contact information.
-
-Provides an abstraction layer over SQLite to allow robust database management.
+- Used for local database storage to save contact information.
+- Provides an abstraction layer over SQLite to allow robust database management.
 
 3. Image Picker Library
-Allows users to select or capture a profile picture for each contact.
+- Allows users to select or capture a profile picture for each contact.
+- Library used: Image Picker by Dhaval2404.
 
-Library used: Image Picker by Dhaval2404.
+---
 
 ### Dependencies Used :
 1. Add the following dependencies to your build.gradle file:
@@ -45,9 +48,11 @@ Library used: Image Picker by Dhaval2404.
 
 ```implementation("com.github.dhaval2404:imagepicker:2.1")```
 
+---
+
 ### Project Structure :
 
-```
+```yaml
 com.example.phoneapp
 ├── MVVM_arch
 │   ├── AddEditActivityViewModel.kt    // ViewModel for Add/Edit screen
@@ -66,6 +71,9 @@ com.example.phoneapp
 ├── MainActivity.kt                       // Main activity displaying the contact list
 └── Utils.kt                              // Utility functions
 ```
+
+---
+
 ### How to Use :
 1. Clone the repository
 ```git clone <repository-url>```
@@ -78,9 +86,13 @@ com.example.phoneapp
 
 5. Use the app to manage your contacts by adding, editing, and deleting them.
 
+---
+
 ### Screenshots & App Demo Video:
 
 (Will upload these soon.)
+
+---
 
 ### Future Improvements
 
