@@ -31,22 +31,16 @@ This is a simple contact management app built using the MVVM (Model-View-ViewMod
 ---
 
 ### Dependencies Used :
+
 1. Add the following dependencies to your build.gradle file:
-```val roomVersion = "2.6.1"```
+```val roomVersion = "2.6.1"``` 
+```implementation("androidx.room:room-runtime:$roomVersion")``` // Room Database
 
-// Room Database
+2. ```annotationProcessor("androidx.room:room-compiler:$roomVersion")``` // Kotlin Symbol Processing (KSP) for Room
 
-```implementation("androidx.room:room-runtime:$roomVersion")```
+3. ```ksp("androidx.room:room-compiler:$roomVersion")``` // Image Picker Library
 
-```annotationProcessor("androidx.room:room-compiler:$roomVersion")```
-
-// Kotlin Symbol Processing (KSP) for Room
-
-```ksp("androidx.room:room-compiler:$roomVersion")```
-
-// Image Picker Library
-
-```implementation("com.github.dhaval2404:imagepicker:2.1")```
+4. ```implementation("com.github.dhaval2404:imagepicker:2.1")```
 
 ---
 
@@ -101,6 +95,8 @@ com.example.phoneapp
 2. Implement cloud sync to back up contacts.
 
 3. Add sorting and filtering options.
+
+---
 
 ### License
 
