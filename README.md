@@ -34,9 +34,9 @@ This is a simple contact management app built using the MVVM (Model-View-ViewMod
 
 1. Add the following dependencies to your build.gradle file:
 
--- ```val roomVersion = "2.6.1"``` 
+- ```val roomVersion = "2.6.1"``` 
 
--- ```implementation("androidx.room:room-runtime:$roomVersion")``` // Room Database
+- ```implementation("androidx.room:room-runtime:$roomVersion")``` // Room Database
 
 2. ```annotationProcessor("androidx.room:room-compiler:$roomVersion")``` // Kotlin Symbol Processing (KSP) for Room
 
