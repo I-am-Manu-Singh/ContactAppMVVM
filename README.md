@@ -86,7 +86,7 @@ com.example.phoneapp
 
 ### Screenshots & App Demo Video:
 
-(Will upload these soon.)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0HdHP58BXN8/0.jpg)](https://www.youtube.com/watch?v=0HdHP58BXN8)
 
 ---
 
